@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"os"
+)
+
 func main() {
-	$END$
+	fmt.Println(os.Args[1:])
 }

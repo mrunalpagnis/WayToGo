@@ -1,5 +1,12 @@
 package main
 
+import (
+	"fmt"
+	"os"
+)
+
 func main() {
-	$END$
+	for index, arg := range os.Args[1:] {
+		fmt.Printf("%d %s\n", index, arg)
+	}
 }
