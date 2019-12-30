@@ -5,7 +5,11 @@ import (
 	"fmt"
 	"os"
 )
-
+/*
+Usage: go run FindDuplicateLines.go
+* once the program is running enter lines, each on new line.
+* end input by typing exit (press enter)
+*/
 func main() {
 	counts := make(map[string]int)
 	input := bufio.NewScanner(os.Stdin)
