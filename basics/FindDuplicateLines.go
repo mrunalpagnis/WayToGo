@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 )
+
 /*
 Usage: go run FindDuplicateLines.go
 * once the program is running enter lines, each on new line.
@@ -21,7 +22,7 @@ func main() {
 	}
 	for line, count := range counts {
 		if count > 1 {
-			fmt.Printf("%s :\t%d\n",line,count)
+			fmt.Printf("%s :\t%d\n", line, count)
 		}
 	}
 }
