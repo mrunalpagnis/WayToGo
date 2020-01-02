@@ -18,5 +18,5 @@ func main() {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "URL.path = %q\n", r.URL.Path)
+	_, _ = fmt.Fprintf(w, "URL.path = %q\n", r.URL.Path)
 }
