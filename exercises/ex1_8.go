@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 )
-/* Usage: go run FetchUrl.go <arg1> <arg2> ... <argN>
+/* Usage: go run ex1_8.go <arg1> <arg2> ... <argN>
  * ... -> variable arguments are accepted
  * arguments should be a list of URLs space separated.
  */
