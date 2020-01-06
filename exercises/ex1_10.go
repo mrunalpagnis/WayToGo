@@ -10,6 +10,7 @@ import (
 	"strconv"
 	"time"
 )
+
 /* Usage: go run ex1_10.go <arg1> <arg2> ... <argN>
  * ... -> variable arguments are accepted
  * arguments should be a list of URLs space separated.
@@ -34,7 +35,7 @@ func fetch(url string, ch chan<- string) {
 		return
 	}
 	var x io.Writer
-	f, err := os.Create("output"+strconv.Itoa(rand.Int())+".txt")
+	f, err := os.Create("output" + strconv.Itoa(rand.Int()) + ".txt")
 	if err != nil {
 		fmt.Println(err)
 		x = ioutil.Discard

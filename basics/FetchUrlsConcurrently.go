@@ -8,6 +8,7 @@ import (
 	"os"
 	"time"
 )
+
 /* Usage: go run FetchUrlsConcurrently.go <arg1> <arg2> ... <argN>
  * ... -> variable arguments are accepted
  * arguments should be a list of URLs space separated.

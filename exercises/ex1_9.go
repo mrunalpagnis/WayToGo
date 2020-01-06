@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"os"
 )
+
 /* Usage: go run ex1_9.go <arg1> <arg2> ... <argN>
  * ... -> variable arguments are accepted
  * arguments should be a list of URLs space separated.
